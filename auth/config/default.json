@@ -1,0 +1,5 @@
+{
+    "jwksUri": "<URI to jwks.json file>",
+    "audience": "<Path of deployed API>",
+    "tokenIssuer": "<URL of token issuer>"
+}
