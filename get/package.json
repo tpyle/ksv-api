@@ -1,0 +1,11 @@
+{
+  "name": "ksv-api-get",
+  "version": "1.0.0",
+  "description": "Handles retrieving user information from KSV backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Pyle",
+  "license": "GPL-3.0-or-later"
+}
