@@ -1,0 +1,14 @@
+{
+  "name": "ksv-api-deploy",
+  "version": "1.0.0",
+  "description": "Used to deploy the ksv api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Pyle",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "config": "^3.3.2"
+  }
+}
