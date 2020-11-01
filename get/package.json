@@ -4,8 +4,14 @@
   "description": "Handles retrieving user information from KSV backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -f build.zip",
+    "build": "zip -r build.zip node_modules index.js package.json package-lock.json config"
   },
   "author": "Thomas Pyle",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "aws-sdk": "^2.783.0",
+    "config": "^3.3.2"
+  }
 }
